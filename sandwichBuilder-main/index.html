@@ -106,10 +106,26 @@
         </div>
     </div>
 
-<audio controls>
-    <source src="./Assets/sandwichbuilder.club.mp3"type="audio/mpeg">
-    Your browser does not support autoplay.
-</audio> 
+<head>
+    <meta name="viewport" content="width=device-width, initial-
+scale=1.0">
+    <link rel="stylesheet" type="text/css" href="background.css">
+</head>
+<body>
+    <div class="clipContainer">
+        <div id="1" class="play"></div>
+        <p class="artist">SANDWICHBUILDER SONG: <span class="title">Clip 1</span></p>
+        <div id="reset1" class="reset"></div>
+        <div id="progress1" class="progress">
+            <div id="progressbar1" class="progressbar"></div>
+        </div>
+        <audio id="clip1">
+            <source src="./Assets/sandwichbuilder.club.mp3"type="audio/mpeg">
+        </audio>
+    </div>
+        </audio>
+    </div>
+</body>
 
     <div id="submitPage" style="display: none; justify-content: center; align-items: center; width: 100%; height: 100%; position: absolute; left: 0px; top: 0px; ">
         <div style="position: relative; width: 850px; height: 550px; border-radius: 20px; background-color: #6da7a5; display: flex; justify-content: center; align-items: center; flex-direction: column; border: solid black 3px;">
@@ -301,7 +317,7 @@
         document.getElementById('submitTxt').style.fontSize = '100px'
         document.getElementById('submitTxt').style.marginTop = '30px'
         
-        document.getElementById('audio controls').style.display = 'flex'
+
 
     }
 
