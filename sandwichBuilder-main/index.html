@@ -107,7 +107,7 @@
     </div>
 
 <audio id="bg-music" loop autoplay>
-        <source src="/assets/sandwichbuilder.mp3" type="audio/mp3">
+        <source src="/Assets/sandwichbuilder.mp3" type="audio/mp3">
         Your browser does not support the audio element.
     </audio>
 
@@ -324,7 +324,7 @@
         document.getElementById('submitPage').style.display = 'flex'
 
         // Create an Audio object
-        var audio = new Audio('/assets/btnClick.mp3');
+        var audio = new Audio('/Assets/btnClick.mp3');
 
         // Play the audio
         audio.play();
@@ -362,7 +362,7 @@
         if(ingredient == null) {return}
 
         var soundEffect = randomWholeNumber(0,4)
-        soundEffect = './assets/' + soundEffect + '.mp3'
+        soundEffect = './Assets/' + soundEffect + '.mp3'
 
         // Create an Audio object
         var audio = new Audio(soundEffect);
